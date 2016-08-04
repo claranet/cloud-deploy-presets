@@ -1,4 +1,4 @@
 description: Common features needed by Ghost
 features:
-  pkg: package=dbus
-  zabbix.agent: client-env-app
+  - pkg: package=dbus
+  - zabbix.agent: client-env-app
