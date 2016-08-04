@@ -1,0 +1,21 @@
+description: Basic php7.0 application running on nginx + php-fpm
+features:
+  nginx: 0
+  php7: 7.0
+  php7: php-modules=php7.0-mysql
+  php7: php-modules=php7.0-fpm
+  php7: php-modules=php7.0-json
+  php7: php-modules=php7.0-mcrypt
+  php7: php-modules=php7.0-curl
+  php7: php-modules=php7.0-intl
+  php7: php-modules=php7.0-imap
+  php7: php-modules=php7.0-dev
+  php7: php-modules=php7.0-bcmath
+  php7: php-modules=php7.0-bz2
+  php7: php-modules=php7.0-mbstring
+  php7: php-modules=php7.0-soap
+  php7: php-modules=php7.0-zip
+  php7: php-modules=php7.0-xml
+  php7: php-modules=php-memcached
+  php7: php-modules=php-apcu
+
