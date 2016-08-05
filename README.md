@@ -17,3 +17,10 @@ features:
 
 ```
 
+You can use some slug/placeholder in the `value` element, they will be replaced by Ghost when importing:
+
+* `${GHOST_CLIENT}` based on the Ghost Domain
+* `${GHOST_APP}` current app name
+* `${GHOST_ENV}` current app env
+* `${GHOST_ROLE}` current app role
+
