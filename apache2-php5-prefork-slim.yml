@@ -3,6 +3,6 @@ features:
   - apache2: 2.4
   - apache2.mod.pagespeed: 0
   - php5: 5.6
-  - pkg: 	libapache2-mod-php5
+  - pkg: libapache2-mod-php5
   - php5: php-modules=php-pear
   - php7: php-modules=php5-mcrypt
