@@ -1,6 +1,6 @@
 description: Basic php7.0 application running on nginx + php-fpm
 features:
-  - nginx: 0
+  - nginx: 1.10
   - php7: 7.0
   - php7: php-modules=php7.0-mysql
   - php7: php-modules=php7.0-fpm
@@ -16,6 +16,6 @@ features:
   - php7: php-modules=php7.0-soap
   - php7: php-modules=php7.0-zip
   - php7: php-modules=php7.0-xml
-  - php7: php-modules=php-memcached
-  - php7: php-modules=php-apcu
+  - php7: php-modules=php7.0-memcached
+  - php7: php-modules=php7.0-apcu
 
