@@ -1,4 +1,10 @@
 description: Common features needed by Ghost
 features:
-  - pkg: package=dbus
-  - zabbix.agent: ${GHOST_CLIENT}-${GHOST_ENV}-${GHOST_APP}
+  -
+    name: pkg
+    value: package=dbus
+    provisioner: salt
+  -
+    name: zabbix.agent
+    value: ${GHOST_CLIENT}-${GHOST_ENV}-${GHOST_APP}
+    provisioner: salt

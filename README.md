@@ -11,9 +11,14 @@ YML syntax:
 #!yaml
 description: Preset description
 features:
-  {key}: {value}
-  {key}: {value}
-
+  -
+    name: {key}
+    value: {value}
+    provisioner: {provisioner}
+  -
+    name: {key}
+    value: {value}
+    provisioner: {provisioner}
 
 ```
 

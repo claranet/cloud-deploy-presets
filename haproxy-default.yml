@@ -1,4 +1,10 @@
-description: Default Haproxy installation
+description: Default HAproxy installation
 features:
-  - haproxy: 0
-  - pkg: package=socat
+  -
+    name: haproxy
+    value: 0
+    provisioner: salt
+  -
+    name: pkg
+    value: package=socat
+    provisioner: salt

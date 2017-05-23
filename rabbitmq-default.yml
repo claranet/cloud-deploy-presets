@@ -1,3 +1,6 @@
-description: Default rabbitmq installation
+description: Default RabbitMQ installation
 features:
-  - rabbitmq.latest: 0
+  -
+    name: rabbitmq.latest
+    value: 0
+    provisioner: salt

@@ -1,3 +1,6 @@
-description: Configure Simple Nat instance
+description: Simple NAT instance
 features:
-  - nat: 10.10.0.0/16
+  -
+    name: nat
+    value: 10.10.0.0/16
+    provisioner: salt
