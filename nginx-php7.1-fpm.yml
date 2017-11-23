@@ -1,0 +1,74 @@
+description: Basic php7.1 application running on nginx 1.12 + php-fpm
+features:
+  -
+    name: nginx
+    value: 1.12.1
+    provisioner: salt
+  -
+    name: php7
+    value: 7.1
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-mysql
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-fpm
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-json
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-mcrypt
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-curl
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-intl
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-imap
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-dev
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-bcmath
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-bz2
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-mbstring
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-soap
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-zip
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-xml
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-memcached
+    provisioner: salt
+  -
+    name: php7
+    value: php-modules=php7.1-apcu
+    provisioner: salt
