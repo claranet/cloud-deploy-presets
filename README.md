@@ -1,7 +1,7 @@
-YML Presets file for Ghost (UI)
-===============================
+YML Presets file for Claranet Cloud Deploy (Ghost Project)
+==========================================================
 
-Those files are presets loaded by Ghost.
+Those files are presets loaded by Ghost - Web UI.
 They contains a set of Ghost feature needed by a generic component.
 
 YML syntax:
